@@ -1,0 +1,14 @@
+1 open and run npm install -g expo-cli => this will install expo-cli globally and expo-cli  will controll screen and all native
+
+2expo init foldername =>cd  to that folder =>npm start this will show qr scan qr in expo app in mobile and and app will run in mobile
+
+3 install some packages like npm install axios @react-navigation/native @react-navigation/native-stack
+npm install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+
+4 differences between react(for web) and react native(for mobile app)
+Feature	      React Web	              React Native
+Form input	  <input>	              <TextInput>
+Button	      <button>	              <TouchableOpacity>
+Styling	      CSS / styled-components  StyleSheet.create()
+Navigation	  react-router-dom	       @react-navigation/native
+localStorage  localStorage	            AsyncStorage
