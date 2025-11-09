@@ -1,0 +1,12 @@
+Backend/.env
+frontend_native/.env
+frontend_native/node_modules
+Backend/node_modules
+
+
+# Ignore all node_modules anywhere
+**/node_modules/
+
+# Ignore all env files anywhere
+.env
+.env.*
